@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/main\ back.png");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 55px;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+
+  }
+  .logo,
+  .list-item {
+    cursor: pointer;
+  }
+
+  .button-small {
+    padding: 15px 20px;
+    background-color: #f5e027;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    cursor: pointer;
+  }
+
+  .hero {
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 119px;
+  }
+  
+  .hero-heading {
+    font-weight: 500;
+    font-size: 110px;
+    font-family: 'Rampart One', cursive;
+    font-style: normal;
+    line-height: 110px;
+    color: #ffc233;
+  }
+  
+  .button-large {
+    background: #f2e52e;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #584cb3;
+    border: none;
+    border-radius: 25px;
+    padding: 24px 56px;
+    margin-top: 64px;
+    cursor: pointer;
+  }
+  
+  .bottom {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+  }
+  
